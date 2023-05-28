@@ -1,0 +1,1 @@
+export { default as ArticlePopular } from './ArticlePopular'
