@@ -2,14 +2,12 @@
   "name": "next-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kickzero.github.io/project-blog-nextjs/",
+  "homepage": "https://ttpthao.github.io/demo-deploy-github-pages/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/cookie": "^0.5.1",

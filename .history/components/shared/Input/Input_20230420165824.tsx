@@ -9,7 +9,7 @@ type InputType  = {
   label?: string,
   type: string,
   className?: string,
-  icon?: JSX.Element,
+  icon: JSX.Element,
   // restProps?: Record<string, any>,
   [key:string]: any
 }

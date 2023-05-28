@@ -2,7 +2,7 @@
   "name": "next-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kickzero.github.io/project-blog-nextjs/",
+  "homepage": "https://ttpthao.github.io/demo-deploy-github-pages/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

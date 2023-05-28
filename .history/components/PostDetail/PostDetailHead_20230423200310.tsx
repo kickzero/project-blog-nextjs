@@ -1,4 +1,3 @@
-import { getTimeSince } from "@/helper";
 import styles from "./post-detail.module.css";
 
 export default function PostDetailHead({PostDetails}: any) {
@@ -16,7 +15,7 @@ export default function PostDetailHead({PostDetails}: any) {
             <strong>{PostDetails.author_data?.nickname}</strong>
           </a>
         </li>
-        <li className={styles["item"] + " date"}>{getTimeSince(PostDetails.date)}</li>
+        <li className={styles["item"] + " date"}>{PostDetails.date}</li>
         <li className={styles["item"] + " views"}>
           {PostDetails.view_count} <i className="icons ion-ios-eye" />
         </li>
